@@ -35,5 +35,5 @@ cmake --build cmake-build-release
 You can use an example video like "bad_apple.mp4" that is automatically copied to the build directory.
 
 ``` sh
-.\mono_ff_oled_s32 <video path> <port name>
+.\mono_ff_oled <video path> <port name>
 ```
