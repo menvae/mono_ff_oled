@@ -26,8 +26,8 @@ pio run --target upload
 ### Server
 
 ``` sh
-cmake -S . -B cmake-build-debug -DCMAKE_BUILD_TYPE=Release
-cmake --build cmake-build-debug
+cmake -S . -B cmake-build-release -DCMAKE_BUILD_TYPE=Release
+cmake --build cmake-build-release
 ```
 
 #### Usage
